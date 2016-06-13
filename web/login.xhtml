@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+
+        <h:outputStylesheet name="primefaces-olympos/theme.css"/>
+        <h:outputStylesheet name="primefaces-olympos/primefaces.css"/>
+        <h:outputStylesheet name="primefaces-olympos/css/core-layout.css"/>
+        <h:outputStylesheet name="primefaces-olympos/css/animate.css"/>
+        <h:outputStylesheet name="primefaces-olympos/css/olympos-font.css"/>
+        <h:outputStylesheet name="primefaces-olympos/css/font-awesome.css"/>
+        <h:outputStylesheet name="primefaces-olympos/css/olympos-layout.css"/>
+
+        <h:outputScript name="primefaces-olympos/jquery/jquery.js"/>
+        <h:outputScript name="primefaces-olympos/jquery/jquery-plugins.js"/>
+        <h:outputScript name="primefaces-olympos/primefaces.js"/>
+
+    </h:head>
+    <h:body class="BlueBack">
+        <h:form>
+
+
+            <div class="Wid70 MarAuto">
+                <div class="Wid70 MarAuto WidAutoOnMobile TexAlCenter">
+
+                    <div class="Wid70 MarAuto WidAutoOnMobile">
+
+
+                        <div class="EmptyBox10 ShowOnMobile"></div>
+
+                        <div class="EmptyBox100 ShowOnDesktop"></div>
+                        <div class="EmptyBox20 ShowOnMobile"></div>
+
+                        <div class="Wid100 FontLatoRegular White Fs18">Bienvenido,Ingrese sus credenciales !</div>
+                        <div class="EmptyBox30"></div>
+                        <div class="Card ui-fluid ShadowEffect">
+                            <div class="Container100">
+                                <p:inputText id="j_idt11" value="#{usuarioBean.usuario.usuario}" placeholder="Igrese su Usuario"
+                                             styleClass="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" style="padding:15px !important;">
+
+                                </p:inputText>
+                                <script id="j_idt11_s" type="text/javascript">
+                                    PrimeFaces.cw("InputText", "widget_j_idt11", {id: "j_idt11"});
+                                </script>
+                            </div>
+                            <div class="Container100">
+
+                                <p:password id="j_idt13" value="#{usuarioBean.usuario.contrasena}" placeholder="Ingrese su Contraseña"
+                                            style="padding:15px !important;" styleClass="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all" />
+                                <script id="j_idt13_s" type="text/javascript">
+                                    $(function () {
+                                        PrimeFaces.cw("Password", "widget_j_idt13", {id: "j_idt13"});
+                                    });</script>
+                            </div>
+                            <div class="Container100 TexAlLeft">
+                                <div class="EmptyBox10"></div>
+                                <div id="j_idt15" class="ui-selectmanycheckbox ui-widget ui-grid ui-grid-responsive">
+                                    <div class="ui-grid-row">
+                                        <div class="ui-grid-col-12">
+                                            <td>
+                                                <div class="ui-chkbox ui-widget">
+                                                    <div class="ui-helper-hidden-accessible">
+                                                        <input id="j_idt15:0" name="j_idt15" type="checkbox" value="Remember Me" />
+                                                    </div>
+                                                    <div class="ui-chkbox-box ui-widget ui-corner-all ui-state-default">
+                                                        <span class="ui-chkbox-icon ui-icon ui-icon-blank ui-c"></span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <label for="j_idt15:0">Remember Me</label>
+                                            </td>
+                                        </div>
+                                    </div>
+                                </div>
+                                <script id="j_idt15_s" type="text/javascript">
+                                    $(function () {
+                                        PrimeFaces.cw("SelectManyCheckbox", "widget_j_idt15", {id: "j_idt15"});
+                                    });
+                                </script>
+                            </div>
+                            <div class="EmptyBox20"></div>
+                            <div class="Container100">
+              
+                                <p:commandButton action="#{usuarioBean.loginUsuario}" styleClass="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only GreenButton"/>
+                                <script id="j_idt18_s" type="text/javascript">
+                                    PrimeFaces.cw("CommandButton", "widget_j_idt18", {id: "j_idt18"});
+                                </script>
+                            </div>
+
+                            <div class="EmptyBox10"></div>
+                            <div class="Separator"></div>
+                            <div class="EmptyBox10"></div>
+
+
+                        </div>
+
+                        <div class="EmptyBox20"></div>
+                        <div class="Wid100 FontLatoRegular Fs12 TransparentWhite">
+                            <i class="fa fa-copyright DispInlBlock"></i>
+                            Derechos reservados <br />
+                            Ing. Vega Vega Jinmi
+                        </div>
+                        <div class="EmptyBox30"></div>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                .ui-button-text, .ui-button-text-only .ui-button-text{
+                    padding:15px !important; transition:none !important;
+                }
+            </style>
+
+
+        </h:form>
+    </h:body>
+</html>
+
