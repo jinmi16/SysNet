@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Olympos';
-    src:url("../fonts/Olympos.eota04b?ln=olympos-layout");
-    src:url("../fonts/Olympos.eota04b?ln=olympos-layout#iefix") format('embedded-opentype'),
-        url("../fonts/Olympos.ttfa04b?ln=olympos-layout") format('truetype'),
-        url("../fonts/Olympos.woffa04b?ln=olympos-layout") format('woff'),
-        url("../fonts/Olympos.svg?ln=olympos-layout#Olympos") format('svg');
+    src:url("../fonts/Olympos.eota04b");
+    src:url("../fonts/Olympos.eota04b") format('embedded-opentype'),
+        url("../fonts/Olympos.ttfa04b") format('truetype'),
+        url("../fonts/Olympos.woffa04b") format('woff'),
+        url("../fonts/Olympos.svg") format('svg');
     font-weight: normal;
     font-style: normal;
 }

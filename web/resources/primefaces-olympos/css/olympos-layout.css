@@ -5,29 +5,45 @@
 /* FONT-FACE*/
 @font-face {
   font-family: 'latoblack';
-  src: url("../fonts/lato-black-webfont.eot1204?ln=primefaces-olympos");
-  src: url("../fonts/lato-black-webfont.eot1204?ln=primefaces-olympos#iefix") format('embedded-opentype'), url("../fonts/lato-black-webfont.woff21204?ln=primefaces-olympos") format('woff2'), url("../fonts/lato-black-webfont.woff1204?ln=primefaces-olympos") format('woff'), url("../fonts/lato-black-webfont.ttf1204?ln=primefaces-olympos") format('truetype'), url("../fonts/lato-black-webfont.svg?ln=primefaces-olympos#latoblack") format('svg');
+  src: url("../fonts/lato-black-webfont.eot1204");
+  src: url("../fonts/lato-black-webfont.eot1204") 
+      format('embedded-opentype'), url("../fonts/lato-black-webfont.woff21204") 
+      format('woff2'), url("../fonts/lato-black-webfont.woff1204") 
+      format('woff'), url("../fonts/lato-black-webfont.ttf1204") 
+      format('truetype'), url("../fonts/lato-black-webfont.svg") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'latobold';
-  src: url("../fonts/lato-bold-webfont.eot1204?ln=primefaces-olympos");
-  src: url("../fonts/lato-bold-webfont.eot1204?ln=primefaces-olympos#iefix") format('embedded-opentype'), url("../fonts/lato-bold-webfont.woff21204?ln=primefaces-olympos") format('woff2'), url("../fonts/lato-bold-webfont.woff1204?ln=primefaces-olympos") format('woff'), url("../fonts/lato-bold-webfont.ttf1204?ln=primefaces-olympos") format('truetype'), url("../fonts/lato-bold-webfont.svg?ln=primefaces-olympos#latobold") format('svg');
+  src: url("../fonts/lato-bold-webfont.eot1204");
+  src: url("../fonts/lato-bold-webfont.eot1204") 
+      format('embedded-opentype'), url("../fonts/lato-bold-webfont.woff21204") 
+      format('woff2'), url("../fonts/lato-bold-webfont.woff1204")
+      format('woff'), url("../fonts/lato-bold-webfont.ttf1204") 
+      format('truetype'), url("../fonts/lato-bold-webfont.svg") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'latoregular';
   src: url("../fonts/lato-regular-webfont.eot1204?ln=primefaces-olympos");
-  src: url("../fonts/lato-regular-webfont.eot1204?ln=primefaces-olympos#iefix") format('embedded-opentype'), url("../fonts/lato-regular-webfont.woff21204?ln=primefaces-olympos") format('woff2'), url("../fonts/lato-regular-webfont.woff1204?ln=primefaces-olympos") format('woff'), url("../fonts/lato-regular-webfont.ttf1204?ln=primefaces-olympos") format('truetype'), url("../fonts/lato-regular-webfont.svg?ln=primefaces-olympos#latoregular") format('svg');
+  src: url("../fonts/lato-regular-webfont.eot1204?ln=primefaces-olympos#iefix") 
+      format('embedded-opentype'), url("../fonts/lato-regular-webfont.woff21204")
+      format('woff2'), url("../fonts/lato-regular-webfont.woff1204") 
+      format('woff'), url("../fonts/lato-regular-webfont.ttf1204") 
+      format('truetype'), url("../fonts/lato-regular-webfont.svg") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'latolight';
-  src: url("../fonts/lato-light-webfont.eot1204?ln=primefaces-olympos");
-  src: url("../fonts/lato-light-webfont.eot1204?ln=primefaces-olympos#iefix") format('embedded-opentype'), url("../fonts/lato-light-webfont.woff21204?ln=primefaces-olympos") format('woff2'), url("../fonts/lato-light-webfont.woff1204?ln=primefaces-olympos") format('woff'), url("../fonts/lato-light-webfont.ttf1204?ln=primefaces-olympos") format('truetype'), url("../fonts/lato-light-webfont.svg?ln=primefaces-olympos#latolight") format('svg');
+  src: url("../fonts/lato-light-webfont.eot1204");
+  src: url("../fonts/lato-light-webfont.eot1204") 
+      format('embedded-opentype'), url("../fonts/lato-light-webfont.woff21204")
+      format('woff2'), url("../fonts/lato-light-webfont.woff1204")
+      format('woff'), url("../fonts/lato-light-webfont.ttf1204") 
+      format('truetype'), url("../fonts/lato-light-webfont.svg") format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -81,6 +97,9 @@ body {
 }
 .BlueTopbar #layout-topbar-cover {
   background-color: #00aaff !important;
+}
+.MilitarTopbar #layout-topbar-cover {
+  background-color: #05c436 !important;
 }
 .AquaTopbar #layout-topbar-cover {
   background-color: #0084b4 !important;
