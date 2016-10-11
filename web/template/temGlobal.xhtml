@@ -71,9 +71,9 @@
 
                         <ul id="layout-tab-menu">
                             <li><a href="#" class="active" rel="layout-menu"> <i class="icon-lock70"></i> <span class="layout-tab-menu-link-text"><span></span> Seguridad</span> </a></li>
-                             <li><a href="#" rel="layout-settings"> <i class="icon-settings47"></i> <span class="layout-tab-menu-link-text"><span></span> Configuraciones</span> </a></li>
-                            <li><a href="#" rel="layout-tasks"> <i class="icon-businessman233"></i> <span class="layout-tab-menu-link-text"><span></span> Operaciones de negocio</span> </a></li>
-                            <li><a href="#" rel="layout-files"> <i class="icon-statistic"></i> <span class="layout-tab-menu-link-text"><span></span> Reportes</span> </a></li>
+                             <li><a href="#" class="" rel="layout-settings"> <i class="icon-settings47"></i> <span class="layout-tab-menu-link-text"><span></span> Configuraciones</span> </a></li>
+                            <li><a href="#" class="" rel="layout-tasks"> <i class="icon-businessman233"></i> <span class="layout-tab-menu-link-text"><span></span> Operaciones de negocio</span> </a></li>
+                            <li><a href="#" class="" rel="layout-files"> <i class="icon-statistic"></i> <span class="layout-tab-menu-link-text"><span></span> Reportes</span> </a></li>
                         </ul>
 
                         <form id="menuform" name="menuform" method="post" action="#" enctype="application/x-www-form-urlencoded">
@@ -83,9 +83,31 @@
                                 <li id="menuform:om_dashboards" role="menuitem">
                                     <a href="#" class="menulink"> <span>SEGURIDAD</span></a>
                                     <ul role="menu">
-                                        <li id="menuform:om_db_a" role="menuitem"><a class="menulink" href="#"><i class="icon-planet23"></i><span>Personal</span></a></li>
+                                        <li id="menuform:om_db_a" role="menuitem">
+                                            <a class="menulink" href="#"><i class="icon-planet23"></i>
+                                                <span>Personal</span>
+                                            </a>
+                                            <ul role="menu">
+                                                <li id="menuform:om_bg_navy" role="menuitem">
+                                                    <a class="menulink" href="#">
+                                                        <i class="icon-chemistry10"></i>
+                                                        <span>Listado</span>
+                                                    </a>
+                                                </li>
+                                                <li id="menuform:om_bg_navy" role="menuitem">
+                                                    <a class="menulink" href="#">
+                                                        <i class="icon-chemistry10"></i>
+                                                        <span>Registro</span>
+                                                    </a>
+                                                </li>
+                                                
+
+                                            </ul>
+                                        </li>
                                         <li id="menuform:om_db_sc" role="menuitem">
-                                            <a class="menulink" href="#"> <i class="icon-website22"></i> <span>Usuarios</span></a>
+                                            <a class="menulink" href="#"> <i class="icon-website22"></i> 
+                                                <span>Usuarios</span>
+                                            </a>
                                             <ul role="menu">
                                                 <li id="menuform:om_bg_navy" role="menuitem">
                                                     <a class="menulink" href="#">
@@ -111,39 +133,19 @@
 
                             </ul>
                             <ul id="layout-settings" class="layout-tab-submenu active">
-
                                 <li id="menuform:om_dashboards" role="menuitem">
                                     <a href="#" class="menulink"> <span>CONFIGURACIONES</span></a>
                                     <ul role="menu">
                                         <li id="menuform:om_db_a" role="menuitem"><a class="menulink" href="#"><i class="icon-planet23"></i><span>Cursos</span></a></li>
                                         <li id="menuform:om_db_sc" role="menuitem">
                                             <a class="menulink" href="#"> <i class="icon-website22"></i> <span>Evaluación</span></a>
-                                            <ul role="menu">
-                                                <li id="menuform:om_bg_navy" role="menuitem">
-                                                    <a class="menulink" href="#">
-                                                        <i class="icon-chemistry10"></i>
-                                                        <span>Listado</span>
-                                                    </a>
-                                                </li>
-                                                <li id="menuform:om_bg_navy" role="menuitem">
-                                                    <a class="menulink" href="#">
-                                                        <i class="icon-chemistry10"></i>
-                                                        <span>Registro</span>
-                                                    </a>
-                                                </li>
-                                                
-
-                                            </ul>
                                         </li>
                                         <li id="menuform:om_db_b" role="menuitem"><a class="menulink" href="#"><i class="icon-website22"></i><span>Docentes</span></a></li>
                                         <li id="menuform:om_db_c" role="menuitem"><a class="menulink" href="#"><i class="icon-website22"></i><span>Aulas</span></a></li>
                                     </ul>
-                                </li>
-
-                                
-
+                                </li>                              
                             </ul>
-                         <ul id="layout-tasks" class="layout-tab-submenu active">
+                            <ul id="layout-tasks" class="layout-tab-submenu active">
 
                                 <li id="menuform:om_dashboards" role="menuitem">
                                     <a href="#" class="menulink"> <span>OPERACIONES</span></a>
@@ -162,7 +164,10 @@
                                 <li id="menuform:om_dashboards" role="menuitem">
                                     <a href="#" class="menulink"> <span>REPORTES</span></a>
                                     <ul role="menu">
-                                        <li id="menuform:om_db_a" role="menuitem"><a class="menulink" href="#"><i class="icon-planet23"></i><span>RIN</span></a></li>
+                                        <li id="menuform:om_db_a" role="menuitem">
+                                            <a class="menulink" href="#"><i class="icon-planet23"></i><span>RIN</span>
+                                            </a>
+                                        </li>
                                         <li id="menuform:om_db_sc" role="menuitem">
                                             <a class="menulink" href="#"> <i class="icon-website22"></i> <span>Asistencia</span></a>
                                        

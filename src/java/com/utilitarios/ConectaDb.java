@@ -1,4 +1,4 @@
-package utilitario;
+package com.utilitarios;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -14,7 +14,7 @@ public class ConectaDb {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 
-            cn = DriverManager.getConnection("jdbc:sqlserver://JINMI-PC1:1433;databaseName=BD_SYSNET", "sa", "123456789");
+            cn = DriverManager.getConnection("jdbc:sqlserver://JLV-PC:1433;databaseName=EJERCITO_BD", "sa", "123456789");
             if (cn != null) {
                 System.out.println("Conexion realizada satisfactoriamente.");
             }
